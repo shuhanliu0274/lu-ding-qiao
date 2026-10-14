@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>飞夺泸定桥</title>
+  <style>html,body{margin:0;background:#080b0b;color:#e8e1d0;font-family:"Microsoft YaHei",sans-serif}#boot{position:fixed;inset:0;display:grid;place-items:center}</style>
+</head>
+<body>
+  <div id="boot">正在载入《飞夺泸定桥》…</div>
+  <script>window.addEventListener('error',e=>{let b=document.getElementById('boot');if(!b){b=document.createElement('div');b.style='position:fixed;left:20px;top:20px;z-index:9999;padding:16px;background:#3b1010;color:#fff';document.body.appendChild(b);}b.textContent='游戏启动错误：'+(e.message||'资源加载失败');});</script>
+  <script src="game-v2.js?v=14" onerror="document.getElementById('boot').textContent='游戏脚本加载失败：请检查 game-v2.js 是否与 play.html 在同一文件夹。'"></script>
+</body>
+</html>

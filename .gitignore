@@ -1,0 +1,6 @@
+# Local test and editor files
+.github_known_hosts
+write-test.tmp
+.DS_Store
+Thumbs.db
+*.log
